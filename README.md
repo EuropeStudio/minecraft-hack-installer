@@ -4,7 +4,7 @@ You want to uto-update your private minecraft client? Give this to developer and
 
 ###### Steps to do:
 
-Install libraries: ```pip install wget, getpass, requests, pyinstaller```
+Install libraries: ```pip install -r requirements.txt```
 
 
 Create executable with pyinstaller --onefile filename.py
