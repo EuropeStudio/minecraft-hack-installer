@@ -7,18 +7,18 @@ x, y = 42 , 401
 
 
 def download():
-    url = 'https://pastebin.com/raw/uXh1cDZa'
+    url = 'https://pastebin.com/raw/url'
     response = get(url)
-    wget.download(response.text[:500], "C:/Users/" + getpass.getuser() + "/AppData/Roaming/.minecraft/mods/ZeroTwo_0.0.7.jar")
+    wget.download(response.text[:500], "C:/Users/" + getpass.getuser() + "/AppData/Roaming/.minecraft/mods/example")
 
 tk = Tk()
 
-tk.geometry("500x500")
-tk.title("zerotwo")
+tk.geometry("size of bg")
+tk.title("name of hack or whatever")
 
 
-install_button = PhotoImage(file=r'hi.png')
-background_image = PhotoImage(file=r'kykymber.png')
+install_button = PhotoImage(file=r'bg.png')
+background_image = PhotoImage(file=r'button.png')
 
 background_label = Label(tk, image=background_image)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
