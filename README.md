@@ -17,3 +17,6 @@ Tell him to create a raw pastebin with current insatllation link (not discord) a
 
 
 Once the new version comes out tell him to update the link on this pastebin
+
+
+P.S x and y are the coordinates of the button
